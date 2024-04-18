@@ -11,7 +11,7 @@ class WeekDayTest {
 	@Test
 	void testSwitchStatement() {
 		String expected = "Weekend";
-		assertEquals(expected, getDayDescriptionSwitchStatement(WeekDay.FRI));
+		assertEquals(expected, getDayDescriptionSwitchStatement(WeekDay.SAT));
 	}
 	
 	@Test
