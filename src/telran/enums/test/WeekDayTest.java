@@ -39,7 +39,7 @@ class WeekDayTest {
 	}
 	
 	private String getDayDescriptionSwitchEspression(WeekDay day) {
-		// лямбда-выражения
+		// ! красивый синтаксис switch лямбда-выражения
 		String res = switch(day) {
 		case SUN -> "Weekend if you live not in Israel";
 		case SAT -> "Weekend";
